@@ -10,7 +10,7 @@ namespace ExcerciseCode
     {
         public void printProgram()
         {
-            int a, b, c;
+            int a, b, c,result;
             Console.Write("Enter the First Num: ");
             a = Convert.ToInt32(Console.ReadLine());
 
@@ -20,7 +20,8 @@ namespace ExcerciseCode
             Console.Write("Enter the Thrid Num: ");
             c = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Multiply of three: {a*b*c}");
+            result = a*b*c;
+            Console.WriteLine($"Multiply of three: {result}");
         }
     }
 }
